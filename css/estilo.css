@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url('../img/fota.png');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 510px;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+@media (max-width: 1024px){
+    .banner{
+        height: 490px;
+        padding-top: 3vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner{
+        height:360px;
+    }
+}
+
+@media (max-width: 420px) {
+    .banner {
+        height: 300px;
+        padding: 30px 0px 0px;
+        background-size: 650px;
+        background-position: top;
+    }
+}
+
+.banner h1 {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .banner h1{
+        font-size: 20px;
+        padding-top: 0vh;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .banner h1{
+        font-size: 14px;
+        margin-bottom: 1vh;
+    }
+}
+
+.banner p {
+    color:  rgb(156, 147, 152);
+    font-size: 14px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .banner p{
+        font-size: small;
+        padding: 3px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .banner p{
+        font-size: 8px;
+        padding: 3px;
+        margin-bottom: 7px;
+    }
+}
+
+.banner a {
+    text-align-last: end;
+    color: rgb(156, 147, 152);
+    text-decoration: unset;
+    background-color:rgb(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    /* border: 2px solid gray;*/
+}
+
+.banner a:hover {
+    background-color: rgb(156, 147, 152, 0.9);
+    color:white;
+}
+
+@media (max-width: 768px){
+    .banner a{
+        font-size: small;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 420px){
+    .banner a {
+        font-size: 11px;
+        padding: 4px;
+    }
+}
+/* SOBRE MIM */
+  
+.sobre-mim {
+    max-width: 1204px;
+    margin: 0 auto;
+;
+}
+
+@media (max-width: 1024px){
+    .sobre-mim{
+        margin-bottom: 70px;
+    }
+}
+
+.minhas-habilidades {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+@media (max-width: 1024px) {
+    .minhas-habilidades {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+.minhas-habilidades_sobre, .minhas-habilidades_itens{
+    max-width: 56%;
+    padding: 5px;
+    margin-bottom: 30px;
+    align-self: auto;
+    padding: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .minhas-habilidades_sobre, .minhas-habilidades_itens {
+        max-width: 95%;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .minhas-habilidades_sobre, .minhas-habilidades_itens {
+        font-size: 12px;
+        max-width: 95%;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+.minhas-habilidades_sobre h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(156, 147, 152,0.9);
+    align-content: flex;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 768px){
+    .minhas-habilidades h2{
+        font-size: 16px;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 420px) {
+    .minhas-habilidades h2 {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+.minhas-habilidades_sobre p {
+    margin-bottom: 20px;
+}
+ 
+@media (max-width: 768px) {
+    .minhas-habilidades_sobre p{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .minhas-habilidades_sobre p{
+        font-size: 12px;
+    }
+}
+
+.minhas-habilidades_sobre a {
+    text-align-last: center;
+    color: rgb(228, 174, 166);
+    background-color: white;
+    border: 2px solid rgb(228, 174, 166);
+    padding: 8px;
+    border-radius: 30px;
+    text-decoration: unset;
+}
+
+.minhas-habilidades_sobre a:hover {
+    background-color: rgb(228, 174, 166);
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .minhas-habilidades_sobre a {
+        display: table-cell;
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 420px) {
+    .minhas-habilidades_sobre a {
+        font-size: 12px;
+    }
+}
+
+.minhas-habilidades_itens h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(156, 147, 152, 0.9);
+    align-content: flex;
+    margin-bottom: 10%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1024px){
+    .minhas-habilidades_itens h2{
+        padding: 7px;
+        margin-bottom: 2%;
+    }
+}
+
+@media (max-width: 420px) {
+    .minhas-habilidades_itens h2 {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+
+.minhas-habilidades_itens ul{
+     font-size: 100%;
+}
+
+@media (max-width: 768px) {
+    .minhas-habilidades_itens ul{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .minhas-habilidades_itens ul{
+        font-size: 12px;
+    }
+}
+
+/* REDES SOCIAIS */
+
+.redes-sociais{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 420px) {
+    .redes-sociais {
+        padding: 40px;
+    }
+}
+
+.redes-sociais_item {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px; 
+}
+
+.redes-sociais_facebook, .redes-sociais_linkedin, .redes-sociais_twitter, .redes-sociais_github {
+    background-color: rgb(156, 147, 152, 0.9);
+    padding: 20px 5px 5px 2px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(156, 147, 152, 0.9);
+}
+
+@media (max-width: 768px) {
+    .redes-sociais_facebook, .redes-sociais_linkedin, .redes-sociais_twitter, .redes-sociais_github {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 420px) {
+    .redes-sociais_facebook, .redes-sociais_linkedin, .redes-sociais_twitter, .redes-sociais_github {
+       border-radius: 100px;
+       height: 70px;
+       width: 70px;
+       padding: 15px 2px 2px 3px;
+       margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .redes-sociais_facebook p, .redes-sociais_linkedin p, .redes-sociais_twitter p, .redes-sociais_github p {
+       font-size: 11px;
+    }
+}
+
+@media (max-width: 420px) {
+    .redes-sociais_facebook p, .redes-sociais_linkedin p, .redes-sociais_twitter p, .redes-sociais_github p {
+       visibility: hidden;
+    }
+}
+
+.redes-sociais_item a {
+    text-decoration: unset;
+}
+
+.redes-sociais_item img{
+    max-height: 50px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .redes-sociais_item img{
+        max-height: 36px;
+    }
+}
+
+/* FOOTER */ 
+
+footer p {
+    font-size: 80%;
+    text-align: center;
+    background-color: rgb(228, 174, 166);
+    color: white;
+    margin: 0;
+    padding: 3px 0;
+}
+
+@media (max-width: 420px){
+    footer p {
+        font-size: 70%;
+    }
+}
